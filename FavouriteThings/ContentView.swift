@@ -9,9 +9,27 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Image("Piper")
-            .resizable()
-            .scaledToFit()
+        
+        NavigationView {
+            
+            List {
+                
+                NavigationLink(destination: Piper()) {
+                    Text("Piper")
+                }
+
+                NavigationLink(destination: Cheesecake()) {
+                    Text("Cheesecake")
+                }
+
+                NavigationLink(destination: BlueJays()) {
+                    Text("Blue Jays")
+                }
+
+            }
+
+        }
+        
     }
 }
 
