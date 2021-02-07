@@ -9,12 +9,23 @@ import SwiftUI
 
 struct Cheesecake: View {
     var body: some View {
-        Text("Cheesecake")
+        ScrollView {
+            
+            Image("Cheesecake")
+                .resizable()
+                .scaledToFit()
+            
+            Text("How many ways can I tell you how much I love cheesecake?")
+            
+        }
+        .navigationTitle("Cheesecake")
     }
 }
 
 struct Cheesecake_Previews: PreviewProvider {
     static var previews: some View {
-        Cheesecake()
+        NavigationView {
+            Cheesecake()
+        }
     }
 }

@@ -9,21 +9,23 @@ import SwiftUI
 
 struct BlueJays: View {
     var body: some View {
-        VStack {
+        ScrollView {
         
             Image("BlueJays")
                 .resizable()
                 .scaledToFit()
             
-            Text("Piper is fuzzy and adorable and I love her very much.")
+            Text("Growing up, my family would always have the Blue Jays game on in the background.")
             
         }
-        .navigationTitle("Piper")
+        .navigationTitle("Blue Jays")
     }
 }
 
 struct BlueJays_Previews: PreviewProvider {
     static var previews: some View {
-        BlueJays()
+        NavigationView {
+            BlueJays()
+        }
     }
 }

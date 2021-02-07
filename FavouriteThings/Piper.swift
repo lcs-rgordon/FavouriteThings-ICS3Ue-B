@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Piper: View {
     var body: some View {
-        VStack {
+        ScrollView {
         
             Image("Piper")
                 .resizable()
