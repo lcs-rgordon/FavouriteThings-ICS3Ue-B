@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EB1C41525CDA8D100B7450C /* BlueJays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB1C41425CDA8D100B7450C /* BlueJays.swift */; };
+		0EB1C41825CDA8DF00B7450C /* Cheesecake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB1C41725CDA8DF00B7450C /* Cheesecake.swift */; };
+		0EB1C41B25CDA8F100B7450C /* Piper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB1C41A25CDA8F100B7450C /* Piper.swift */; };
 		0EB8455D25CC409A00DF3E23 /* FavouriteThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8455C25CC409A00DF3E23 /* FavouriteThingsApp.swift */; };
 		0EB8455F25CC409A00DF3E23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8455E25CC409A00DF3E23 /* ContentView.swift */; };
 		0EB8456425CC40A000DF3E23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EB8456325CC40A000DF3E23 /* Preview Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0EB1C41425CDA8D100B7450C /* BlueJays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueJays.swift; sourceTree = "<group>"; };
+		0EB1C41725CDA8DF00B7450C /* Cheesecake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cheesecake.swift; sourceTree = "<group>"; };
+		0EB1C41A25CDA8F100B7450C /* Piper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piper.swift; sourceTree = "<group>"; };
 		0EB8455925CC409A00DF3E23 /* FavouriteThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavouriteThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EB8455C25CC409A00DF3E23 /* FavouriteThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsApp.swift; sourceTree = "<group>"; };
 		0EB8455E25CC409A00DF3E23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +63,9 @@
 				0EB8456D25CC603000DF3E23 /* Assets.xcassets */,
 				0EB8456525CC40A000DF3E23 /* Info.plist */,
 				0EB8456225CC40A000DF3E23 /* Preview Content */,
+				0EB1C41425CDA8D100B7450C /* BlueJays.swift */,
+				0EB1C41725CDA8DF00B7450C /* Cheesecake.swift */,
+				0EB1C41A25CDA8F100B7450C /* Piper.swift */,
 			);
 			path = FavouriteThings;
 			sourceTree = "<group>";
@@ -138,6 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EB1C41B25CDA8F100B7450C /* Piper.swift in Sources */,
+				0EB1C41825CDA8DF00B7450C /* Cheesecake.swift in Sources */,
+				0EB1C41525CDA8D100B7450C /* BlueJays.swift in Sources */,
 				0EB8455F25CC409A00DF3E23 /* ContentView.swift in Sources */,
 				0EB8455D25CC409A00DF3E23 /* FavouriteThingsApp.swift in Sources */,
 			);
