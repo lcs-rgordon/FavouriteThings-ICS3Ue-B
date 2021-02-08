@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E97AA1125D07F640070277D /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E97AA1025D07F640070277D /* ListItem.swift */; };
 		0EB1C41525CDA8D100B7450C /* BlueJays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB1C41425CDA8D100B7450C /* BlueJays.swift */; };
 		0EB1C41825CDA8DF00B7450C /* Cheesecake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB1C41725CDA8DF00B7450C /* Cheesecake.swift */; };
 		0EB1C41B25CDA8F100B7450C /* Piper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB1C41A25CDA8F100B7450C /* Piper.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E97AA1025D07F640070277D /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 		0EB1C41425CDA8D100B7450C /* BlueJays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueJays.swift; sourceTree = "<group>"; };
 		0EB1C41725CDA8DF00B7450C /* Cheesecake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cheesecake.swift; sourceTree = "<group>"; };
 		0EB1C41A25CDA8F100B7450C /* Piper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piper.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				0EB1C41425CDA8D100B7450C /* BlueJays.swift */,
 				0EB1C41725CDA8DF00B7450C /* Cheesecake.swift */,
 				0EB1C41A25CDA8F100B7450C /* Piper.swift */,
+				0E97AA1025D07F640070277D /* ListItem.swift */,
 			);
 			path = FavouriteThings;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E97AA1125D07F640070277D /* ListItem.swift in Sources */,
 				0EB1C41B25CDA8F100B7450C /* Piper.swift in Sources */,
 				0EB1C41825CDA8DF00B7450C /* Cheesecake.swift in Sources */,
 				0EB1C41525CDA8D100B7450C /* BlueJays.swift in Sources */,

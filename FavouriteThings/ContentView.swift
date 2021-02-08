@@ -15,15 +15,21 @@ struct ContentView: View {
             List {
                 
                 NavigationLink(destination: Piper()) {
-                    Text("Piper")
+                    ListItem(hint: "🐶",
+                             title: "Piper",
+                             summary: "What is cuter than a puppy?")
                 }
                 
                 NavigationLink(destination: BlueJays()) {
-                    Text("Blue Jays")
+                    ListItem(hint: "⚾️",
+                             title: "Blue Jays",
+                             summary: "Baseball was the fabric of my youth")
                 }
                 
                 NavigationLink(destination: Cheesecake()) {
-                    Text("Cheesecake")
+                    ListItem(hint: "🥮",
+                             title: "Cheesecake",
+                             summary: "All I have to say is: nom, nom")
                 }
                 
 
